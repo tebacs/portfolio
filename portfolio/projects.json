@@ -1,0 +1,17 @@
+[
+    {
+        "imagen":"",
+        "titulo":"Gestor de peliculas y series ",
+        "descripcion":"Aplicación web interactiva diseñada para la gestión personalizada de bibliotecas de cine. El proyecto permite a los usuarios centralizar sus películas, organizarlas por estado de visualización y mantener un registro dinámico de su progreso como espectador.",
+        "tecnologias":["react", "html", "css", "javascript"],
+        "link":"https://tp1bacinstu.netlify.app/"
+    }
+    ,
+    {
+        "imagen":"",
+        "titulo":"",
+        "descripcion":"",
+        "tecnologias":"",
+        "link":""
+    }
+]
