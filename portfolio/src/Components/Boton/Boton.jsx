@@ -1,11 +1,12 @@
 import React from 'react'
 
-export default function Boton({texto, ...props}) {
+export default function Boton({ texto, className = '', ...props }) {
   return (
-    <div>
-      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" {...props}>
-        {texto}
-      </button>
-    </div>
+    <button
+      className={`inline-flex items-center justify-center rounded-full bg-[var(--color-primary)] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[rgba(15,15,169,0.9)] ${className}`}
+      {...props}
+    >
+      {texto}
+    </button>
   )
 }

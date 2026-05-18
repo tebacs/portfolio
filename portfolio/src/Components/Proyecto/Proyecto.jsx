@@ -1,35 +1,26 @@
 import React from 'react'
 import Etiqueta from '../Etiqueta/Etiqueta'
 
-export default function Proyecto() {
-    const tecologias = ["react", "html", "css", "javascript"];
+export default function Proyecto({ title = 'Proyecto', description = '', href = '#', image = '/PortadaGestorPeliculasySeries.PNG', tags = [] }) {
   return (
-    <div class=" w-100 group relative rounded-lg bg-gray-800 p-6">
-        <a href="https://tp1bacinstu.netlify.app/" class="block">
-            <div class="overflow-hidden rounded-lg">
-                <img 
-                    class="w-full transition-transform duration-500 group-hover:scale-105" 
-                    src="./../../public/PortadaGestorPeliculasySeries.PNG" 
-                    alt="Imagen del proyecto"
-                />
-            </div>
-
-            <div class="mt-5">
-                <h1 class="text-xl font-bold text-white transition-colors group-hover:text-blue-400">
-                    MovieTracker
-                </h1>
-                
-                <p class="mt-3 text-sm leading-relaxed text-zinc-400">
-                    Aplicación web interactiva diseñada para la gestión personalizada de bibliotecas de cine. El proyecto permite a los usuarios centralizar sus películas, organizarlas por estado de visualización y mantener un registro dinámico de su progreso como espectador.
-                </p>
-
-                <div class="mt-6 flex flex-wrap gap-2">
-                    {tecologias.map((tecnologia, index) => (
-                        <Etiqueta key={index} nombre={tecnologia} />
-                    ))}
-                </div>
-            </div>
-        </a>
+    <article className="group overflow-hidden rounded-[2rem] border border-[var(--color-gris)] bg-[rgba(255,255,255,0.03)] shadow-[0_20px_100px_-90px_rgba(0,0,0,0.7)] transition duration-300 hover:-translate-y-1 hover:border-[var(--color-primary)]">
+      <a href={href} target="_blank" rel="noreferrer" className="block">
+        <div className="overflow-hidden rounded-[1.75rem]">
+          <img className="h-72 w-full object-cover transition duration-500 group-hover:scale-105" src={image} alt={title} />
         </div>
+        <div className="space-y-4 p-6">
+          <div className="inline-flex items-center gap-2 rounded-full bg-[rgba(15,15,169,0.12)] px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-[var(--color-primary)]">
+            Proyecto
+          </div>
+          <h3 className="text-2xl font-semibold text-white">{title}</h3>
+          <p className="text-[var(--color-grisclaro)] leading-7">{description}</p>
+          <div className="flex flex-wrap gap-2">
+            {tags.map((tag, index) => (
+              <Etiqueta key={index} nombre={tag} />
+            ))}
+          </div>
+        </div>
+      </a>
+    </article>
   )
 }
