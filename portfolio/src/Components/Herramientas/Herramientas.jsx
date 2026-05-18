@@ -1,12 +1,17 @@
+// Herramientas/Herramientas.jsx
 import React from 'react'
-import Etiqueta from '../Etiqueta/Etiqueta'
+import EtiquetaHerramienta from '../EtiquetaHerramienta/EtiquetaHerramienta'
 import herramientas from '../../../herramientas.json'
 
 export default function Herramientas() {
   return (
-    <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
+    <div className="flex flex-wrap gap-4 pb-2 justify-center">
       {herramientas.map((herramienta, index) => (
-        <Etiqueta key={index} nombre={herramienta} />
+        <EtiquetaHerramienta
+          key={index}
+          nombre={herramienta.nombre}
+          icon={herramienta.icon}
+        />
       ))}
     </div>
   )

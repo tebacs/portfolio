@@ -9,7 +9,8 @@
     "gitLink": "https://github.com/MGIC12/TP1-PWA",
     "image": "/projectsImgs/PortadaGestorPeliculasySeries.PNG",
     "tags": ["React", "HTML", "CSS", "JavaScript"]
-  },
+  }
+  ,
   {
     "title": "Nexus",
     "description":
@@ -18,25 +19,27 @@
     "gitLink": "https://github.com/MGIC12/React2PWA",
     "image": "/projectsImgs/PortadaNexus.PNG",
     "tags": ["React", "Tailwind", "API", "UI", "I18N"]
-  },
+  }
+  ,
+  {
+    "title": "Vinilos Truchos",
+    "type": "e-comerce",
+    "description":
+      "E-commerce de vinilos con arquitectura MVC. Incluye gestión de usuarios con roles y permisos, control de stock en tiempo real, envío de mails personalizados y panel de administración completo.",
+    "link": "",
+    "gitLink": "https://github.com/Ibenjamindlf/TrabajoFinalPWD",
+    "image": "/projectsImgs/vinilosTruchos/portadaVinilosTr.PNG",
+    "tags": ["PHP", "SQL", "html", "Bootstrap", "mvc"]
+  }
+  ,
   {
     "title": "FC-Climatizacion",
     "type": "landing page",
     "description":
       "Desarrollo frontend de una plataforma web de una sola página para una empresa dedicada a la climatización residencial e industrial. Diseñada con una estética moderna, limpia y corporativa que prioriza la usabilidad y la conversión de visitantes en clientes.",
     "link": "https://fc-servicios-integrales.netlify.app",
-    "gitLink": "",
+    "gitLink": "https://github.com/tebacs/FCclimatizacion",
     "image": "/projectsImgs/PortadaFC-ServiciosInt.PNG",
     "tags": ["HTML", "CSS", "Bootstrap"]
-  },
-  {
-    "title": "Vinilos Truchos",
-    "type": "e-comerce",
-    "description":
-      "E-commerce de vinilos con arquitectura MVC. Incluye gestión de usuarios con roles y permisos, control de stock en tiempo real, envío de mails personalizados y panel de administración completo.",
-    "link": "https://fc-servicios-integrales.netlify.app",
-    "gitLink": "",
-    "image": "/projectsImgs/vinilosTruchos/portadaVinilosTr.PNG",
-    "tags": ["PHP", "SQL", "html", "Bootstrap", "mvc"]
   }
 ]

@@ -5,6 +5,7 @@ import Herramientas from '../../Components/Herramientas/Herramientas'
 import Proyectos from '../../../projects.json'
 
 
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-[var(--color-oscuro)] text-[var(--color-texto)]">
@@ -97,10 +98,9 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="mt-16 rounded-[2rem] border border-[var(--color-gris)] bg-[rgba(255,255,255,0.04)] p-8">
-          <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
+        <section className="mt-16 rounded-[2rem] border border-[var(--color-gris)] bg-[rgba(255,255,255,0.04)] p-4">
+          <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-center">
             <div>
-              <p className="text-sm uppercase tracking-[0.22em] text-[var(--color-primary)]">Herramientas</p>
               <h2 className="mt-3 text-3xl font-semibold text-white">Mi stack</h2>
             </div>
           </div>

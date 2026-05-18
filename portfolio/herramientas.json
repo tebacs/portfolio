@@ -1,2 +1,11 @@
-["html", "javascript", "css", "php", "sql", "git", "react", "bootstrap", "tailwind"
+[
+  { "nombre": "HTML", "icon": "https://cdn.simpleicons.org/html5/E34F26" },
+  { "nombre": "CSS", "icon": "https://cdn.simpleicons.org/css/1572B6" },
+  { "nombre": "JavaScript", "icon": "https://cdn.simpleicons.org/javascript/F7DF1E" },
+  { "nombre": "PHP", "icon": "https://cdn.simpleicons.org/php/777BB4" },
+  { "nombre": "SQL", "icon": "https://cdn.simpleicons.org/mysql/4479A1" },
+  { "nombre": "Git", "icon": "https://cdn.simpleicons.org/git/F05032" },
+  { "nombre": "React", "icon": "https://cdn.simpleicons.org/react/61DAFB" },
+  { "nombre": "Bootstrap", "icon": "https://cdn.simpleicons.org/bootstrap/7952B3" },
+  { "nombre": "Tailwind", "icon": "https://cdn.simpleicons.org/tailwindcss/06B6D4" }
 ]

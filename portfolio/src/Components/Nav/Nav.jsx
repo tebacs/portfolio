@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Nav() {
   return (
-    <header className="border-b border-[var(--color-gris)] bg-[rgba(16,16,16,0.88)] backdrop-blur-xl">
+    <header className="sticky top-0 z-50 border-b border-[var(--color-gris)] bg-[rgba(16,16,16,0.88)] backdrop-blur-xl">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <a href="#sobre-mi" className="text-lg font-semibold text-white">
+        <a href="#" className="text-lg font-semibold text-white">
           Matias Bacsay
         </a>
         <nav className="flex items-center gap-5 text-sm text-[var(--color-grisclaro)]">
