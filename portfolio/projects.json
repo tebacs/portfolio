@@ -1,16 +1,7 @@
 
 
 [
-  {
-    "title": "MovieTracker",
-    "description":
-      "Aplicación web interactiva para gestionar bibliotecas de cine, organizar películas por estado de visualización y mantener un seguimiento dinámico de tus series y filmes favoritos.",
-    "link": "https://tp1bacinstu.netlify.app/",
-    "gitLink": "https://github.com/MGIC12/TP1-PWA",
-    "image": "/projectsImgs/PortadaGestorPeliculasySeries.PNG",
-    "tags": ["React", "HTML", "CSS", "JavaScript"]
-  }
-  ,
+  
   {
     "title": "Nexus",
     "description":
@@ -19,6 +10,16 @@
     "gitLink": "https://github.com/MGIC12/React2PWA",
     "image": "/projectsImgs/PortadaNexus.PNG",
     "tags": ["React", "Tailwind", "API", "UI", "I18N"]
+  }
+  ,
+  {
+    "title": "MovieTracker",
+    "description":
+      "Aplicación web interactiva para gestionar bibliotecas de cine, organizar películas por estado de visualización y mantener un seguimiento dinámico de tus series y filmes favoritos.",
+    "link": "https://tp1bacinstu.netlify.app/",
+    "gitLink": "https://github.com/MGIC12/TP1-PWA",
+    "image": "/projectsImgs/PortadaGestorPeliculasySeries.PNG",
+    "tags": ["React", "HTML", "CSS", "JavaScript"]
   }
   ,
   {
