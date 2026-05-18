@@ -2,25 +2,8 @@ import React from 'react'
 import Nav from '../../Components/Nav/Nav'
 import Proyecto from '../../Components/Proyecto/Proyecto'
 import Herramientas from '../../Components/Herramientas/Herramientas'
+import Proyectos from '../../../projects.json'
 
-const proyectos = [
-  {
-    title: 'MovieTracker',
-    description:
-      'Aplicación web interactiva para gestionar bibliotecas de cine, organizar películas por estado de visualización y mantener un seguimiento dinámico de tus series y filmes favoritos.',
-    href: 'https://tp1bacinstu.netlify.app/',
-    image: '/PortadaGestorPeliculasySeries.PNG',
-    tags: ['React', 'HTML', 'CSS', 'JavaScript'],
-  },
-  {
-    title: 'Portfolio Personal',
-    description:
-      'Presentación profesional con diseño moderno, animaciones sutiles y una experiencia responsiva que refleja mi enfoque en la calidad visual y técnica.',
-    href: '#contacto',
-    image: '/PortadaGestorPeliculasySeries.PNG',
-    tags: ['React', 'Tailwind', 'Vite', 'UI'],
-  },
-]
 
 export default function Home() {
   return (
@@ -108,7 +91,7 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-8 grid gap-6 lg:grid-cols-2">
-            {proyectos.map((proyecto, index) => (
+            {Proyectos.map((proyecto, index) => (
               <Proyecto key={index} {...proyecto} />
             ))}
           </div>

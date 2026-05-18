@@ -1,17 +1,42 @@
+
+
 [
-    {
-        "imagen":"",
-        "titulo":"Gestor de peliculas y series ",
-        "descripcion":"Aplicación web interactiva diseñada para la gestión personalizada de bibliotecas de cine. El proyecto permite a los usuarios centralizar sus películas, organizarlas por estado de visualización y mantener un registro dinámico de su progreso como espectador.",
-        "tecnologias":["react", "html", "css", "javascript"],
-        "link":"https://tp1bacinstu.netlify.app/"
-    }
-    ,
-    {
-        "imagen":"",
-        "titulo":"",
-        "descripcion":"",
-        "tecnologias":"",
-        "link":""
-    }
+  {
+    "title": "MovieTracker",
+    "description":
+      "Aplicación web interactiva para gestionar bibliotecas de cine, organizar películas por estado de visualización y mantener un seguimiento dinámico de tus series y filmes favoritos.",
+    "link": "https://tp1bacinstu.netlify.app/",
+    "gitLink": "https://github.com/MGIC12/TP1-PWA",
+    "image": "/projectsImgs/PortadaGestorPeliculasySeries.PNG",
+    "tags": ["React", "HTML", "CSS", "JavaScript"]
+  },
+  {
+    "title": "Nexus",
+    "description":
+      "Plataforma web interactiva orientada al ecosistema hardware y gaming. Permite a los usuarios explorar, filtrar y analizar las especificaciones técnicas de componentes de última generación mediante una interfaz limpia y de alto rendimiento.",
+    "link": "https://pwa-react2-bacinstu.netlify.app",
+    "gitLink": "https://github.com/MGIC12/React2PWA",
+    "image": "/projectsImgs/PortadaNexus.PNG",
+    "tags": ["React", "Tailwind", "API", "UI", "I18N"]
+  },
+  {
+    "title": "FC-Climatizacion",
+    "type": "landing page",
+    "description":
+      "Desarrollo frontend de una plataforma web de una sola página para una empresa dedicada a la climatización residencial e industrial. Diseñada con una estética moderna, limpia y corporativa que prioriza la usabilidad y la conversión de visitantes en clientes.",
+    "link": "https://fc-servicios-integrales.netlify.app",
+    "gitLink": "",
+    "image": "/projectsImgs/PortadaFC-ServiciosInt.PNG",
+    "tags": ["HTML", "CSS", "Bootstrap"]
+  },
+  {
+    "title": "Vinilos Truchos",
+    "type": "e-comerce",
+    "description":
+      "E-commerce de vinilos con arquitectura MVC. Incluye gestión de usuarios con roles y permisos, control de stock en tiempo real, envío de mails personalizados y panel de administración completo.",
+    "link": "https://fc-servicios-integrales.netlify.app",
+    "gitLink": "",
+    "image": "/projectsImgs/vinilosTruchos/portadaVinilosTr.PNG",
+    "tags": ["PHP", "SQL", "html", "Bootstrap", "mvc"]
+  }
 ]
