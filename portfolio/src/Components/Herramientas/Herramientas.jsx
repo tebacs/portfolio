@@ -5,7 +5,7 @@ import herramientas from '../../../herramientas.json'
 
 export default function Herramientas() {
   return (
-    <div className="flex flex-wrap gap-4 pb-2 justify-center">
+    <div className="flex flex-wrap gap-6 pb-2 justify-center">
       {herramientas.map((herramienta, index) => (
         <EtiquetaHerramienta
           key={index}

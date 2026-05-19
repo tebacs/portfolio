@@ -8,11 +8,11 @@ export default function Nav() {
           Matias Bacsay
         </a>
         <nav className="flex items-center gap-5 text-sm text-[var(--color-grisclaro)]">
-          <a href="#proyectos" className="transition hover:text-white">
-            Proyectos
-          </a>
           <a href="#sobre-mi" className="transition hover:text-white">
             Sobre mí
+          </a>
+          <a href="#proyectos" className="transition hover:text-white">
+            Proyectos
           </a>
           <a href="#contacto" className="transition hover:text-white">
             Contacto

@@ -37,7 +37,7 @@ export default function Home() {
               <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
                 <a
                   href="#proyectos"
-                  className="inline-flex items-center justify-center rounded-full bg-[var(--color-primary)] px-7 py-3 text-sm font-semibold text-white transition hover:bg-[rgba(15,15,169,0.9)]"
+                  className="inline-flex items-center justify-center rounded-full bg-[var(--color-primary)] px-7 py-3 text-sm font-semibold text-white transition hover:opacity-80"
                 >
                   Ver proyectos
                 </a>
@@ -84,6 +84,17 @@ export default function Home() {
           </div>
         </section>
 
+        <section className="mt-16 rounded-[2rem] p-4">
+          <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-center">
+            <div>
+              <h2 className="mt-3 text-3xl font-semibold text-white">Mi stack</h2>
+            </div>
+          </div>
+          <div className="mt-8">
+            <Herramientas />
+          </div>
+        </section>
+
         <section id="proyectos" className="mt-16">
           <div className="flex flex-col gap-2 md:flex-row md:items-end md:justify-between">
             <div>
@@ -98,16 +109,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="mt-16 rounded-[2rem] border border-[var(--color-gris)] bg-[rgba(255,255,255,0.04)] p-4">
-          <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-center">
-            <div>
-              <h2 className="mt-3 text-3xl font-semibold text-white">Mi stack</h2>
-            </div>
-          </div>
-          <div className="mt-8">
-            <Herramientas />
-          </div>
-        </section>
+        
 
         <section id="contacto" className="mt-16 rounded-[2rem] border border-[var(--color-gris)] bg-[rgba(255,255,255,0.03)] p-8 text-[var(--color-grisclaro)]">
           <h2 className="text-3xl font-semibold text-white">Contacto</h2>
@@ -116,8 +118,8 @@ export default function Home() {
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
             <a
-              href="mailto:matias@example.com"
-              className="inline-flex rounded-full bg-[var(--color-primary)] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[rgba(15,15,169,0.9)]"
+              href="mailto:matibacsay@gmail.com"
+              className="inline-flex rounded-full bg-[var(--color-primary)] px-6 py-3 text-sm font-semibold text-white transition hover:opacity-80"
             >
               Enviar correo
             </a>
