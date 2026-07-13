@@ -3,6 +3,7 @@ import Nav from '../../Components/Nav/Nav'
 import Proyecto from '../../Components/Proyecto/Proyecto'
 import Herramientas from '../../Components/Herramientas/Herramientas'
 import Proyectos from '../../../projects.json'
+import Contacto from '../../Components/Contacto/Contacto'
 
 
 
@@ -109,28 +110,7 @@ export default function Home() {
           </div>
         </section>
 
-        
-
-        <section id="contacto" className="mt-16 rounded-[2rem] border border-[var(--color-gris)] bg-[rgba(255,255,255,0.03)] p-8 text-[var(--color-grisclaro)]">
-          <h2 className="text-3xl font-semibold text-white">Contacto</h2>
-          <p className="mt-4 max-w-2xl leading-7">
-            Estoy listo para nuevas oportunidades y proyectos. Si buscas un desarrollador que combine estilo, rendimiento y orden, hablemos.
-          </p>
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
-            <a
-              href="mailto:matibacsay@gmail.com"
-              className="inline-flex rounded-full bg-[var(--color-primary)] px-6 py-3 text-sm font-semibold text-white transition hover:opacity-80"
-            >
-              Enviar correo
-            </a>
-            <a
-              href="#proyectos"
-              className="inline-flex rounded-full border border-[var(--color-gris)] px-6 py-3 text-sm font-semibold text-[var(--color-texto)] transition hover:border-[var(--color-primary)] hover:text-[var(--color-primary)]"
-            >
-              Ver proyectos
-            </a>
-          </div>
-        </section>
+        <Contacto />
       </main>
     </div>
   )

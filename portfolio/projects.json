@@ -9,7 +9,16 @@
     "link": "https://pwa-react2-bacinstu.netlify.app",
     "gitLink": "https://github.com/MGIC12/React2PWA",
     "image": "/projectsImgs/PortadaNexus.PNG",
-    "tags": ["React", "Tailwind", "API", "UI", "I18N"]
+    "tags": [
+  "React", 
+  "Node.js", 
+  "Express", 
+  "Prisma ORM", 
+  "PostgreSQL", 
+  "Tailwind CSS", 
+  "i18next (I18N)", 
+  "REST API"
+]
   }
   ,
   {
